@@ -1,0 +1,22 @@
+.imageTitle{
+   width: 75%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+} 
+.centerText{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
